@@ -48,7 +48,7 @@ func main(){
 				fmt.Print("Formato (mp3, wma, wav): ")
 				fmt.Scan(&input)
 				audio.Formato = input
-				fmt.Print("Duracion: ")
+				fmt.Print("Duracion (segs): ")
 				fmt.Scan(&auxInt)
 				audio.Duracion = auxInt
 				contenidoWeb.ContenidoMultimedia = append(contenidoWeb.ContenidoMultimedia, audio)
